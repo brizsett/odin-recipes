@@ -1,8 +1,5 @@
-h1 {
-    text-align: center;
-    font-family: Garamond, "Times New Roman", serif;
-    color: maroon;
-    font-size: 46px;
+* {
+    background-color: whitesmoke;
 }
 
 a {
@@ -10,13 +7,47 @@ a {
 }
 
 a:link {
-    color: darkgreen;
+    color: slategray;
 }
 
 a:visited {
-    color: slategray;
+    color: darkslategray;
 }
 
 a:hover {
     color: hotpink;
+}
+
+h1,
+h4 {
+    text-align: center;
+    font-family: Garamond, "Times New Roman", serif;
+    color: maroon;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    text-align: center;
+
+}
+
+.main {
+    font-family: Verdana, Arial, sans-serif;
+    color: rgb(23, 44, 44);
+    text-align: left;
 }
